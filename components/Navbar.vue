@@ -151,6 +151,12 @@ import IconMenuItem from '~/assets/icons/menu-item.svg';
 import Popover from '@/components/Popover.vue';
 import { Bars3Icon as ChevronDownIcon } from '@heroicons/vue/24/outline';
 import { usePageNavigation } from '@/hooks/usePageNavigation';
+// 引入导航图标
+import navKs from '/public/nav-ks.png';
+import navDy from '/public/nav-dy.png';
+import navTm from '/public/nav-tm.png';
+import navWx from '/public/nav-wx.png';
+import qrWx from '/public/qr/wx.jpg';
 
 const { goToPage, currentPage, isInScrollPage } = usePageNavigation();
 
@@ -208,25 +214,25 @@ const navList = [
 const contactList = [
   {
     name: '快手',
-    icon_img: '/nav-ks.png',
-    qr_img: '/qr/wx.jpg',
+    icon_img: navKs,
+    qr_img: qrWx,
     qr_text: 'scan_ks',
   },
   {
     name: '抖音',
-    icon_img: '/nav-dy.png',
-    qr_img: '/qr/wx.jpg',
+    icon_img: navDy,
+    qr_img: qrWx,
     qr_text: 'scan_dy',
   },
   {
     name: '天猫',
-    icon_img: '/nav-tm.png',
-    qr_img: '/qr/wx.jpg',
+    icon_img: navTm,
+    qr_img: qrWx,
     qr_text: 'scan_tm',
   },
   {
     name: '微信',
-    icon_img: '/nav-wx.png',
+    icon_img: navWx,
     qr_img: 'https://zdeer.com.cn/uploadfiles/2022/08/20220827112841499.png?5YWz5rOo5YWs5LyX5Y+3',
     qr_text: 'scan_wx',
   },
