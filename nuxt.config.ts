@@ -1,5 +1,4 @@
-import path from "path";
-
+// import path from "path";
 export default defineNuxtConfig({
   app: {
     baseURL: "/zdeer-official-nuxt3/",
