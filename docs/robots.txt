@@ -1,6 +1,0 @@
-# START nuxt-simple-robots (indexable)
-User-agent: *
-Disallow: 
-
-Sitemap: https://fuguezzz.github.io/zdeer-official-nuxt3/sitemap.xml
-# END nuxt-simple-robots
