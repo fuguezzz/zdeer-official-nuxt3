@@ -1,4 +1,11 @@
+import path from "path";
+
 export default defineNuxtConfig({
+  nitro: {
+    output: {
+      publicDir: path.join(__dirname, "docs"),
+    },
+  },
   ssr: true,
   modules: [
     "@nuxtjs/i18n",
