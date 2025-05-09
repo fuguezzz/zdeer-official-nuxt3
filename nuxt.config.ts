@@ -3,16 +3,16 @@ import path from "path";
 export default defineNuxtConfig({
   app: {
     baseURL: "/zdeer-official-nuxt3/",
-    buildAssetsDir: "nuxt_assets",
+    // buildAssetsDir: "nuxt_assets",
   },
-  nitro: {
-    output: {
-      publicDir: path.join(__dirname, "docs"),
-    },
-  },
-  experimental: {
-    payloadExtraction: false,
-  },
+  // nitro: {
+  //   output: {
+  //     publicDir: path.join(__dirname, "docs"),
+  //   },
+  // },
+  // experimental: {
+  //   payloadExtraction: false,
+  // },
   modules: [
     "@nuxtjs/i18n",
     "@nuxtjs/tailwindcss",
