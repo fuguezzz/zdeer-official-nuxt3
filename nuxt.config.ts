@@ -1,6 +1,9 @@
 import path from "path";
 
 export default defineNuxtConfig({
+  app: {
+    baseURL: "/zdeer-official-nuxt3/",
+  },
   nitro: {
     output: {
       publicDir: path.join(__dirname, "docs"),
@@ -20,7 +23,7 @@ export default defineNuxtConfig({
   },
   site: {
     // nuxt-simple-sitemap - 自动生成sitemap的配置
-    url: "http://official-nuxt3.jiabao.online",
+    url: "https://fuguezzz.github.io/zdeer-official-nuxt3/",
   },
   i18n: {
     vueI18n: "./i18n.config.ts",

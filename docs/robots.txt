@@ -2,5 +2,5 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://official-nuxt3.jiabao.online/sitemap.xml
+Sitemap: https://fuguezzz.github.io/zdeer-official-nuxt3/sitemap.xml
 # END nuxt-simple-robots
