@@ -152,16 +152,11 @@ import Popover from '@/components/Popover.vue';
 import { Bars3Icon as ChevronDownIcon } from '@heroicons/vue/24/outline';
 import { usePageNavigation } from '@/hooks/usePageNavigation';
 // 引入导航图标
-// import navKs from '/public/nav-ks.png';
-// import navDy from '/public/nav-dy.png';
-// import navTm from '/public/nav-tm.png';
-// import navWx from '/public/nav-wx.png';
-// import qrWx from '/public/qr/wx.jpg';
-const navKs = '/nav-ks.png';
-const navDy = '/nav-dy.png';
-const navTm = '/nav-tm.png';
-const navWx = '/nav-wx.png';
-const qrWx = '/qr/wx.jpg';
+import navKs from '/nav-ks.png';
+import navDy from '/nav-dy.png';
+import navTm from '/nav-tm.png';
+import navWx from '/nav-wx.png';
+import qrWx from '/qr/wx.jpg';
 
 const { goToPage, currentPage, isInScrollPage } = usePageNavigation();
 
