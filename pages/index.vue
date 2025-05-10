@@ -105,7 +105,7 @@ const country = computed(() => {
 });
 
 onMounted(() => {
-  fetchGeoData();
+  // fetchGeoData();
   window.addEventListener('resize', () => debouncedHandleResize());
 });
 
