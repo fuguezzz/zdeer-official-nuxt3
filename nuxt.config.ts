@@ -1,6 +1,15 @@
 // import path from "path";
 export default defineNuxtConfig({
   app: {
+    head: {
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: '/favicon.ico',
+        },
+      ],
+    },
     baseURL: "/zdeer-official-nuxt3/",
     // buildAssetsDir: "nuxt_assets",
   },
